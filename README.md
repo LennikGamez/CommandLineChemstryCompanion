@@ -1,4 +1,10 @@
 # Command Line Chemestry Companion (CLCC)
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [References](#references)
+
 
 ## Installation
 
@@ -22,6 +28,15 @@ chmod +x <filename>
 Download the source code and run
 ```bash
 cargo build --release
+```
+## Usage
+
+### Basic Example
+
+Calculate the atomic mass of Water (H_2O): 
+```bash
+Bitte gib die Strukturformel an:
+> H_2O
 ```
 
 

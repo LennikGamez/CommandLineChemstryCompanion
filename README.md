@@ -13,15 +13,17 @@ mv path/to/downloaded/file /usr/local/bin/clcc
 ```
 This command moves the downloaded file into the /usr/local/bin directory and renames the file to clcc, so that you can execute the script in the terminal with ```clcc```
 
+## If you have problems  executing the file on Linux run
+```bash
+chmod +x <filename>
+```
+
 ### Compiling with cargo
 Download the source code and run
 ```bash
 cargo build --release
 ```
-If you have problems  executing the file on Linux run
-```bash
-chmod +x <filename>
-```
+
 
 ## References
 - Data of the periodic table [here](https://pse-info.de/de/data) 
